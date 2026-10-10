@@ -1,4 +1,4 @@
- Food Review Sentiment Analysis
+# Food Review Sentiment Analysis-NLP
 
 A machine learning(NLP) project that classifies English food reviews as **Negative**, **Neutral**, or **Positive**, with a Streamlit app for trying predictions.
 
@@ -36,7 +36,7 @@ These results indicate moderate performance on the project's test set.
 The Streamlit app accepts a food review and displays its predicted sentiment.
 
 ### Positive prediction
-![Positive prediction](Positive.png)
+![Positive review prediction](positive.png)
 
 ### Negative prediction
 ![Negative review prediction](Negative.png)
@@ -44,11 +44,9 @@ The Streamlit app accepts a food review and displays its predicted sentiment.
 ### Neutral prediction
 ![Neutral review prediction](Neutral.png)
 
-### Neutral prediction
 ## Project Files
 
 - `sentiment_Analysis_NLP.ipynb` — notebook containing the analysis and experiments.
-- `sentiment_Analysis_NLP.py` — Python version of the training workflow.
 - `app.py` — Streamlit prediction app.
 - `sentiment_model.joblib` — saved classifier, TF-IDF vectorizer, and sentiment labels.
 
@@ -64,7 +62,6 @@ Place `app.py` and `sentiment_model.joblib` in the same folder, then run:
 
 ```bash
 python -m streamlit run app.py
-or run with---- /opt/anaconda3/bin/python -m streamlit run app.py --server.port 8503
 ```
 
 Open the Local URL displayed in the terminal.
