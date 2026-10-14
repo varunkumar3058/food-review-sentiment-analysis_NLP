@@ -1,6 +1,6 @@
 # Food Review Sentiment Analysis-NLP
 
-A machine learning(NLP) project that classifies English food reviews as **Negative**, **Neutral**, or **Positive**, with a Streamlit app for trying predictions.
+A machine learning(NLP) project that classifies English food reviews as **Negative**, **Neutral**, or **Positive**, with a Streamlit app for trying predictions;
 
 ## Dataset of varun
 
