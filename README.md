@@ -2,7 +2,7 @@
 
 A machine learning(NLP) project that classifies English food reviews as **Negative**, **Neutral**, or **Positive**, with a Streamlit app for trying predictions.
 
-## Dataset of varun
+## Dataset
 
 The project uses Amazon food reviews from `Reviews.csv`. (https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 
